@@ -31,11 +31,15 @@ project/
 │
 └── requirements.txt
 ## Install dependencies:
-pip install -r requirements.txt
+```bash
+    pip install -r requirements.txt
 
+```
 ## Run the application:
-python src/app.py
-
+```bash
+   python src/app.py
+  
+```
 ## Technologies Used
 
 Flask
@@ -45,3 +49,8 @@ HTML/CSS/JavaScript
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## Author
+
+[Aman Singh Chauhan]
+
