@@ -30,3 +30,18 @@ project/
 │       └── mentorship.db
 │
 └── requirements.txt
+## Install dependencies:
+pip install -r requirements.txt
+
+## Run the application:
+python src/app.py
+
+## Technologies Used
+
+Flask
+SQLAlchemy
+HTML/CSS/JavaScript
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
