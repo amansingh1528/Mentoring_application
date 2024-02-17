@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorship Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header>
+    <h1>Welcome to the Mentorship Platform</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('register') }}">Register</a></li>
+            <li><a href="{{ url_for('login') }}">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <p>This platform connects aspiring professionals with successful mentors in their field. Whether you're seeking guidance, support, or career advice, our platform is here to help you.</p>
+    <p>Sign up now to start your mentorship journey!</p>
+</section>
+<footer>
+    <p>&copy; 2024 Mentorship Platform</p>
+</footer>
+</body>
+</html>
